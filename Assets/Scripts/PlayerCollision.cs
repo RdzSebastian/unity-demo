@@ -10,6 +10,7 @@ public class PlayerCollision : MonoBehaviour
         {
             movement.enabled = false;
             //Debug.Log("We hit a obstacle");
+            FindObjectOfType<AudioManager>().Play("Hit");
             FindObjectOfType<GameManager>().EndGame();
 
         }

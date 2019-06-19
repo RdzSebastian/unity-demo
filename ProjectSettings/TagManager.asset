@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Obstacle
   - Ground
+  - SoundMovement
   layers:
   - Default
   - TransparentFX
