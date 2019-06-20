@@ -3650,7 +3650,7 @@ PrefabInstance:
     - target: {fileID: 264455052727324082, guid: 9757a8b12b6c76f46b8853f919d80986,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 264455052727324082, guid: 9757a8b12b6c76f46b8853f919d80986,
         type: 3}
@@ -3660,7 +3660,7 @@ PrefabInstance:
     - target: {fileID: 264455052727324082, guid: 9757a8b12b6c76f46b8853f919d80986,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 455
+      value: 400
       objectReference: {fileID: 0}
     - target: {fileID: 264455052727324082, guid: 9757a8b12b6c76f46b8853f919d80986,
         type: 3}
@@ -3709,6 +3709,12 @@ PrefabInstance:
       objectReference: {fileID: 402191154}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9757a8b12b6c76f46b8853f919d80986, type: 3}
+--- !u!4 &264455053538947525 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 264455052727324082, guid: 9757a8b12b6c76f46b8853f919d80986,
+    type: 3}
+  m_PrefabInstance: {fileID: 264455053538947524}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1837474806942174653
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4017,6 +4023,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 382122437, guid: 3039b8b25db8d284e977a4a7cd6f80a3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7059838543457430661, guid: 3039b8b25db8d284e977a4a7cd6f80a3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4127,10 +4137,11 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 1885920798}
-    - target: {fileID: 382122437, guid: 3039b8b25db8d284e977a4a7cd6f80a3, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
+    - target: {fileID: 7059838543270722176, guid: 3039b8b25db8d284e977a4a7cd6f80a3,
+        type: 3}
+      propertyPath: END
+      value: 
+      objectReference: {fileID: 264455053538947525}
     - target: {fileID: 1923175482, guid: 3039b8b25db8d284e977a4a7cd6f80a3, type: 3}
       propertyPath: m_IsActive
       value: 1

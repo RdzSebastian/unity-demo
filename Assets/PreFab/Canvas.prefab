@@ -492,7 +492,7 @@ GameObject:
   - component: {fileID: 7059838543270722182}
   - component: {fileID: 7059838543270722176}
   m_Layer: 5
-  m_Name: ScoreText
+  m_Name: ProgressText
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -558,7 +558,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: 250
+  m_Text: 0%
 --- !u!114 &7059838543270722176
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -572,7 +572,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   player: {fileID: 0}
+  END: {fileID: 0}
   scoreText: {fileID: 7059838543270722182}
+  playerPosition: 0
 --- !u!1 &7059838543457430713
 GameObject:
   m_ObjectHideFlags: 0
