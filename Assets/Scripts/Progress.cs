@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using UnityEngine.UI;
 
-public class Score : MonoBehaviour
+public class Progress : MonoBehaviour
 {
 
     public Transform player;
@@ -14,7 +14,7 @@ public class Score : MonoBehaviour
     {
         if (!FindObjectOfType<GameManager>().GetGameHasEndend() && playerPosition < 100f)
         {
-            //Debug.Log(playerPosition);
+            Debug.Log(playerPosition);
             //scoreText.text = player.position.z.ToString("0");
             playerPosition = (player.position.z * 100) / END.position.z;
             scoreText.text = playerPosition.ToString("0") + "%";
