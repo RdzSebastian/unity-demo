@@ -9,7 +9,11 @@ public class Score : MonoBehaviour
     
     void Update()
     {
-        //Debug.Log(player.position.z);
-        scoreText.text = player.position.z.ToString("0");
+        if (!FindObjectOfType<GameManager>().GetGameHasEndend())
+        {
+            //Debug.Log(player.position.z);
+            scoreText.text = player.position.z.ToString("0");
+        }
+        
     }
 }

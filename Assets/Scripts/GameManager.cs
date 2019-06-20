@@ -8,6 +8,13 @@ public class GameManager : MonoBehaviour
     bool gameHasEndend = false;
     public float restartDelay = 1f;
     public GameObject completeLevelUI;
+    public GameObject gameOverUI;
+
+    public bool GetGameHasEndend()
+    {
+        return this.gameHasEndend;
+    }
+
 
     public void CompleteLevel()
     {
@@ -23,13 +30,23 @@ public class GameManager : MonoBehaviour
         {
             gameHasEndend = true;
             Debug.Log("END GAME");
-            Invoke("Restart", restartDelay);
+            gameOverUI.SetActive(true);
+            //Invoke("gameOver", restartDelay);
         }
         
     }
 
-    private void Restart()
+    public void Restart()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+    }
+
+    private void FixedUpdate()
+    {
+        if (Input.GetKey("r") && gameHasEndend)
+        {
+            FindObjectOfType<AudioManager>().Play("Button");
+            FindObjectOfType<GameManager>().Restart();
+        }
     }
 }

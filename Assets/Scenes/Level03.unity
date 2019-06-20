@@ -5318,7 +5318,7 @@ PrefabInstance:
     - target: {fileID: 264455052727324082, guid: 9757a8b12b6c76f46b8853f919d80986,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 373.68002
+      value: 457
       objectReference: {fileID: 0}
     - target: {fileID: 264455052727324082, guid: 9757a8b12b6c76f46b8853f919d80986,
         type: 3}
@@ -5601,6 +5601,11 @@ PrefabInstance:
       propertyPath: completeLevelUI
       value: 
       objectReference: {fileID: 1742775313}
+    - target: {fileID: 6757504953731754064, guid: afff73b2e23910c449ffeac994673309,
+        type: 3}
+      propertyPath: gameOverUI
+      value: 
+      objectReference: {fileID: 7059838543519275877}
     - target: {fileID: 6757504953731754067, guid: afff73b2e23910c449ffeac994673309,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -5782,3 +5787,9 @@ PrefabInstance:
       objectReference: {fileID: 1885920798}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3039b8b25db8d284e977a4a7cd6f80a3, type: 3}
+--- !u!1 &7059838543519275877 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 382122437, guid: 3039b8b25db8d284e977a4a7cd6f80a3,
+    type: 3}
+  m_PrefabInstance: {fileID: 7059838543519275876}
+  m_PrefabAsset: {fileID: 0}
