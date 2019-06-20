@@ -4040,6 +4040,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1885920798}
+    - target: {fileID: 0}
+      propertyPath: END
+      value: 
+      objectReference: {fileID: 264455053538947525}
     - target: {fileID: 7059838543457430713, guid: 3039b8b25db8d284e977a4a7cd6f80a3,
         type: 3}
       propertyPath: m_Name
@@ -4154,18 +4162,18 @@ PrefabInstance:
       propertyPath: m_Pivot.y
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 0}
-      propertyPath: player
-      value: 
-      objectReference: {fileID: 1885920798}
-    - target: {fileID: 0}
-      propertyPath: END
-      value: 
-      objectReference: {fileID: 264455053538947525}
     - target: {fileID: 1923175482, guid: 3039b8b25db8d284e977a4a7cd6f80a3, type: 3}
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 371346857, guid: 3039b8b25db8d284e977a4a7cd6f80a3, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 1885920798}
+    - target: {fileID: 371346857, guid: 3039b8b25db8d284e977a4a7cd6f80a3, type: 3}
+      propertyPath: END
+      value: 
+      objectReference: {fileID: 264455053538947525}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 3039b8b25db8d284e977a4a7cd6f80a3, type: 3}
 --- !u!1 &7059838543519275877 stripped
