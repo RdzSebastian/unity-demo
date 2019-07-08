@@ -3,10 +3,10 @@
 public class PlayerMovement : MonoBehaviour
 {
     public Rigidbody rb;
-    public float forwardForce = 3000f;
-    public float sidewaysFoce = 200f;
+    public float forwardForce = 5000f;
+    public float sidewaysFoce = 350f;
     public float horizontalMove = 0f;
-    public float jumpForce = 15f;
+    public float jumpForce = 20f;
     public bool onGround = false;
     public bool jump = false;
 
@@ -32,6 +32,8 @@ public class PlayerMovement : MonoBehaviour
         }
 
         Move(horizontalMove * Time.fixedDeltaTime);
+
+        rb.AddForce(-Vector3.up, ForceMode.Impulse);
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -41,8 +43,9 @@ public class PlayerMovement : MonoBehaviour
 
     public void Move(float move)
     {
-
-        rb.AddForce(horizontalMove * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
+        if (onGround) { 
+            rb.AddForce(horizontalMove * Time.deltaTime, 0, 0, ForceMode.VelocityChange);
+        }
 
         if (onGround && jump)
         {
@@ -51,10 +54,5 @@ public class PlayerMovement : MonoBehaviour
             jump = false;
 
         }
-        else if (!onGround)
-        {
-            rb.AddForce(-Vector3.up, ForceMode.Impulse);
-        }
-
     }
 }

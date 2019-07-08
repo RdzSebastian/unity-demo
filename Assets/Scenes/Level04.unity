@@ -3619,12 +3619,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 8896402183978395274}
   m_PrefabAsset: {fileID: 0}
---- !u!54 &1452329496 stripped
-Rigidbody:
-  m_CorrespondingSourceObject: {fileID: 3149605912151808473, guid: d50e0dd0fec8b4f439e051686c995ea2,
-    type: 3}
-  m_PrefabInstance: {fileID: 3149605911881811907}
-  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1485557731 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1837474805506856467, guid: 53c274092a9752848897ca25b3bbc3cb,
@@ -5310,52 +5304,12 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3149605912151808473, guid: d50e0dd0fec8b4f439e051686c995ea2,
-        type: 3}
-      propertyPath: m_Mass
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3149605912151808473, guid: d50e0dd0fec8b4f439e051686c995ea2,
-        type: 3}
-      propertyPath: m_Drag
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3149605912151808473, guid: d50e0dd0fec8b4f439e051686c995ea2,
-        type: 3}
-      propertyPath: m_UseGravity
-      value: 1
-      objectReference: {fileID: 0}
     - target: {fileID: 3149605912151808476, guid: d50e0dd0fec8b4f439e051686c995ea2,
         type: 3}
       propertyPath: playerControls
       value: 
       objectReference: {fileID: -944628639613478452, guid: 3e319604ca521174593e2baa855a33cc,
         type: 3}
-    - target: {fileID: 3149605912151808476, guid: d50e0dd0fec8b4f439e051686c995ea2,
-        type: 3}
-      propertyPath: rb
-      value: 
-      objectReference: {fileID: 1452329496}
-    - target: {fileID: 3149605912151808476, guid: d50e0dd0fec8b4f439e051686c995ea2,
-        type: 3}
-      propertyPath: jumpForce
-      value: 15
-      objectReference: {fileID: 0}
-    - target: {fileID: 3149605912151808476, guid: d50e0dd0fec8b4f439e051686c995ea2,
-        type: 3}
-      propertyPath: sidewaysFoce
-      value: 500
-      objectReference: {fileID: 0}
-    - target: {fileID: 3149605912151808476, guid: d50e0dd0fec8b4f439e051686c995ea2,
-        type: 3}
-      propertyPath: forwardForce
-      value: 3000
-      objectReference: {fileID: 0}
-    - target: {fileID: 3149605912151808476, guid: d50e0dd0fec8b4f439e051686c995ea2,
-        type: 3}
-      propertyPath: onGround
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 3149605912151808476, guid: d50e0dd0fec8b4f439e051686c995ea2,
         type: 3}
       propertyPath: forwardForceFlying
@@ -5365,11 +5319,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Enabled
       value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3149605912151808476, guid: d50e0dd0fec8b4f439e051686c995ea2,
-        type: 3}
-      propertyPath: horizontalMove
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d50e0dd0fec8b4f439e051686c995ea2, type: 3}

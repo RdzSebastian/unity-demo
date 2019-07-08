@@ -29,7 +29,7 @@ public class GameManager : MonoBehaviour
         if(gameHasEndend == false)
         {
             gameHasEndend = true;
-            Debug.Log("END GAME");
+            //Debug.Log("END GAME");
             gameOverUI.SetActive(true);
             //Invoke("gameOver", restartDelay);
         }
