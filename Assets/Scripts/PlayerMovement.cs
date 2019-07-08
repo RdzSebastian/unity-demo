@@ -1,4 +1,6 @@
-﻿using UnityEngine;
+﻿using System;
+using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -13,7 +15,7 @@ public class PlayerMovement : MonoBehaviour
     private void Update()
     {
         horizontalMove = Input.GetAxisRaw("Horizontal") * sidewaysFoce;
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetButtonDown("Jump") && Int32.Parse(SceneManager.GetActiveScene().name) >= 4 )
         {
             jump = true;
         }

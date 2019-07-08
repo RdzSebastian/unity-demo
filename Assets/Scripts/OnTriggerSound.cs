@@ -7,7 +7,7 @@ public class OnTriggerSound : MonoBehaviour
     {
         if (collisionInfo.tag == "Player")
         {
-            //Debug.Log("We hit a SoundColider");
+            //|Debug.Log("We hit a SoundColider");
             FindObjectOfType<AudioManager>().Play("movement");
         }
     }
