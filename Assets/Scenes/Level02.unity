@@ -2787,28 +2787,6 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 314905620}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1450090622 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 7059838543270722180, guid: 3039b8b25db8d284e977a4a7cd6f80a3,
-    type: 3}
-  m_PrefabInstance: {fileID: 7059838543519275876}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1450090623
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1450090622}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 32a159f3343acf94889e16f37b85504e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  player: {fileID: 1885920798}
-  END: {fileID: 264455053538947525}
-  scoreText: {fileID: 0}
-  playerPosition: 0
 --- !u!4 &1450433454 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1837474805506856467, guid: 53c274092a9752848897ca25b3bbc3cb,
@@ -4058,10 +4036,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
-    - target: {fileID: 382122437, guid: 3039b8b25db8d284e977a4a7cd6f80a3, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 7059838543457430661, guid: 3039b8b25db8d284e977a4a7cd6f80a3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4175,6 +4149,10 @@ PrefabInstance:
       propertyPath: END
       value: 
       objectReference: {fileID: 264455053538947525}
+    - target: {fileID: 382122437, guid: 3039b8b25db8d284e977a4a7cd6f80a3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1923175482, guid: 3039b8b25db8d284e977a4a7cd6f80a3, type: 3}
       propertyPath: m_IsActive
       value: 1
