@@ -157,7 +157,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 7, y: -149}
+  m_AnchoredPosition: {x: 0, y: -149}
   m_SizeDelta: {x: 160, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &142916373
@@ -302,8 +302,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5392638, y: 0.5}
-  m_AnchoredPosition: {x: -12, y: 117.5}
-  m_SizeDelta: {x: 489.8, y: 235}
+  m_AnchoredPosition: {x: -22.5, y: 117.5}
+  m_SizeDelta: {x: 45, y: 235}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &241171233
 MonoBehaviour:
@@ -335,7 +335,7 @@ MonoBehaviour:
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
+    m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: WELCOME TO
@@ -555,8 +555,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5392638, y: 0.5}
-  m_AnchoredPosition: {x: 0.000011444092, y: 29}
-  m_SizeDelta: {x: 489.8, y: 235}
+  m_AnchoredPosition: {x: -22.5, y: 29}
+  m_SizeDelta: {x: 45, y: 235}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &680513651
 MonoBehaviour:
@@ -588,7 +588,7 @@ MonoBehaviour:
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
+    m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
   m_Text: JUST A CUBE
