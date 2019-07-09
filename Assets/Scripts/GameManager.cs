@@ -31,9 +31,9 @@ public class GameManager : MonoBehaviour
             gameHasEndend = true;
             //Debug.Log("END GAME");
             gameOverUI.SetActive(true);
-            //Invoke("gameOver", restartDelay);
+            //Adds death count
+            DeathScript.deaths += 1;
         }
-        
     }
 
     public void Restart()

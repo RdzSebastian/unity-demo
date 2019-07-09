@@ -2261,6 +2261,11 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 5721338939258241955, guid: 0000000000000000d000000000000000,
         type: 0}
+    - target: {fileID: 6802583452128747147, guid: f8c8c6e6e2a64c84a991025dbe71824a,
+        type: 3}
+      propertyPath: m_TagString
+      value: Untagged
+      objectReference: {fileID: 0}
     - target: {fileID: 6802583452128747146, guid: f8c8c6e6e2a64c84a991025dbe71824a,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4036,6 +4041,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Canvas
       objectReference: {fileID: 0}
+    - target: {fileID: 382122437, guid: 3039b8b25db8d284e977a4a7cd6f80a3, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7059838543457430661, guid: 3039b8b25db8d284e977a4a7cd6f80a3,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -4149,10 +4158,6 @@ PrefabInstance:
       propertyPath: END
       value: 
       objectReference: {fileID: 264455053538947525}
-    - target: {fileID: 382122437, guid: 3039b8b25db8d284e977a4a7cd6f80a3, type: 3}
-      propertyPath: m_IsActive
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 1923175482, guid: 3039b8b25db8d284e977a4a7cd6f80a3, type: 3}
       propertyPath: m_IsActive
       value: 1
