@@ -5304,22 +5304,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 3149605912151808476, guid: d50e0dd0fec8b4f439e051686c995ea2,
-        type: 3}
-      propertyPath: playerControls
-      value: 
-      objectReference: {fileID: -944628639613478452, guid: 3e319604ca521174593e2baa855a33cc,
-        type: 3}
-    - target: {fileID: 3149605912151808476, guid: d50e0dd0fec8b4f439e051686c995ea2,
-        type: 3}
-      propertyPath: forwardForceFlying
-      value: 1500
-      objectReference: {fileID: 0}
-    - target: {fileID: 3149605912151808476, guid: d50e0dd0fec8b4f439e051686c995ea2,
-        type: 3}
-      propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d50e0dd0fec8b4f439e051686c995ea2, type: 3}
 --- !u!1001 &3329333856657029420
